@@ -1,0 +1,18 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "yarn start",
+    "build": "nuxi build",
+    "start": "yarn build && nuxi preview",
+    "postinstall": "yarn upgrade"
+  },
+  "devDependencies": {
+    "nuxt3": "^3.0.0-27396610.ed4f4f5"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "1.2.36",
+    "@fortawesome/free-brands-svg-icons": "5.15.4",
+    "@fortawesome/free-solid-svg-icons": "5.15.4",
+    "@fortawesome/vue-fontawesome": "3.0.0-5"
+  }
+}
